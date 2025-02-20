@@ -1,0 +1,66 @@
+=========================================================================
+Startup options:
+=========================================================================
+ISTART = 0        ! 0: start from scratch;
+                  ! 1: restart with constant ecut;
+                  ! 2: restart with constant basis << default
+                  ! 3: full restart including charge prediction
+ICHARG = 2        ! 0: from initial wavefunctions; 1: CHGCAR; 2: atomich charge
+densities
+
+IPIPOL = 3
+IVDW = 11
+
+IDIPOL = 3
+IVDW = 11
+
+=========================================================================
+Spin/Magnetism:
+=========================================================================
+ISPIN = 2         ! spin polarized calculation? (1 no, 2 yes)
+=========================================================================
+Electronic Relaxation:
+=========================================================================
+#NBANDS = 360
+ENCUT  = 400  ! planewave cutoff (eV)
+PREC   = Normal   ! recommended value, (accurate for volume optimization, phonons, ...)
+EDIFF  = 2E-04    ! convergence criterion for wave-functions
+GGA    = PE       ! PBE GGA
+#NELM = 200
+ISMEAR = 1        ! -5: tetra+Bloechl; -4: tetra;...; -1 Fermi;
+                  ! 0 Gaussian (Insulators!) 1..N Methfessel-Paxton (metals)
+SIGMA  = 0.2     ! smearing parameter -> check that TS is smaller than 1meV per atom
+                  ! metals: 0.1; insulators: 0.05
+#ALGO   = FAST     ! 5x Davidson, then DIIS
+LREAL  = .FALSE.  ! use g-space projectors
+
+=========================================================================
+Ionic Relaxation:
+=========================================================================
+ISYM   = 1        ! 0: no symmetry; 1: symmetry; 2: memory conserving symmetry (4 PAW)
+NSW    = 800     ! max NSW ionic steps
+IBRION = 2        !-1: ions not moved; 0: MD; 1: quasi-Newton;
+                  ! 2: CG; 3: quickmin; 5: Hessian;
+#ADDGRID = .TRUE.
+POTIM  = 0.5      ! timestep/scaling for forces ... not used for CG
+ISIF   = 2        ! all relax ions, additionally: 1: pressure; 2: stress;
+                  !   3: cell; ...
+EDIFFG = -.03    ! neg. value: force cutoff for nuclei; pos. value: free energy change
+
+
+=========================================================================
+IO options:
+=========================================================================
+NPAR = 4
+#EMIN = -1
+#EMAX = 13
+#NEDOS = 500 
+
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+#LAECHG = .FALSE.
+
+--- TIM ADDITION ---
+--- R W I G S = 1.0 1.0 1.0 ! PRINTING APPROXIMATE ATOMIC RADIUS GUESS OF LOCAL E- DENSITY?
+                  ! RWIGS tag in units of Angstroms
+#LORBIT = 11       ! 0 RWIGS line required DOSCAR and PROCAR file

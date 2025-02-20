@@ -1,0 +1,262 @@
+/var/spool/slurm/job46900/slurm_script: line 13: /etc/profile.d/TMI.sh: No such file or directory
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46900.0 ON n027 CANCELLED AT 2025-01-31T02:59:01 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 46900 ON n027 CANCELLED AT 2025-01-31T02:59:01 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014BD9983CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014BCA10E9393  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014CFC6A3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     000014CEDA7ADD8E  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     000014CED8C15480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     000014CED8C171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014CFC722B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014CFC6DFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014CFC738EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014CFC6F71F43  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000151FFA03CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     0000151F0DD31E2C  Unknown               Unknown  Unknown
+libpsm2.so.2.2     0000151F0DD1CDAF  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     0000151F0C215480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000151F0C2171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000151FFA82B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000151FFA3FA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000151FFA98EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000151FFA57E0A7  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000152CD783CA00  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000152BE9A11F6C  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000152BE9A371D2  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000152BE9A171CC  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000152CD802B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000152CD7BFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000152CD818EB7E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000149A73A3CA00  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000149985C17310  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000149A7422B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000149A73DFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000149A7438EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000149A73F71F43  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000149A73D0777D  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000146ADFC3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     00001469F391CD96  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     00001469F1E15480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     00001469F1E171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000146AE042B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000146ADFFFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000146AE058EB7E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014ED01E3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     000014EC15BC2D8D  Unknown               Unknown  Unknown
+libpsm2.so.2.2     000014EC15BADDAF  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     000014EC14015480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     000014EC140171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014ED0262B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014ED021FA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014ED0278EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014ED02371F43  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014AC5C43CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AC5C7FA73E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AC5CD8EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AC5C97E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AC5C97991E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014AC5C707C1B  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014B799A3CA00  Unknown               Unknown  Unknown
+libpsmx2-fi.so     000014B6ABC153D4  Unknown               Unknown  Unknown
+libpsmx2-fi.so     000014B6ABC171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B79A22B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B799DFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B79A38EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B799F7E0A7  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001550B7E3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     0000154FCBBC2D8D  Unknown               Unknown  Unknown
+libpsm2.so.2.2     0000154FCBBADDAF  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     0000154FCA015480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000154FCA0171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001550B862B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001550B81FA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001550B878EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001550B837E0A7  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000148A0EA3CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000148A0EDFA8DF  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000148A0F38EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000148A0EF7E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000148A0EF7991E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000148A0ED07C1B  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014B8F103CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B8F1AC8AB8  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B8F1AC6DFD  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B8F13FA941  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B8F198EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014B8F157E0A7  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001533AAA3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     00001532BE7C2D8D  Unknown               Unknown  Unknown
+libpsm2.so.2.2     00001532BE7ADDAF  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     00001532BCC15480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     00001532BCC171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001533AB22B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001533AADFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001533AB38EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001533AAF7E0A7  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014D84983CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D849FCF46D  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D849BFA996  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D84A18EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D849D7E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014D849D7991E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000153A99A3CA00  Unknown               Unknown  Unknown
+libpsmx2-fi.so     00001539ABC37148  Unknown               Unknown  Unknown
+libpsmx2-fi.so     00001539ABC171CC  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000153A9A22B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000153A99DFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000153A9A38EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000153A99F7E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000153A99F7991E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000147B2983CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147B2A2C6D3F  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147B29BFA941  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147B2A18EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147B29D7E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000147B29D7991E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001522FEC3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     0000152212D3EDC9  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     0000152210E15480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     0000152210E171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001522FF42B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001522FEFFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001522FF58EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001522FF17E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00001522FF17991E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014C5F2C3CA00  Unknown               Unknown  Unknown
+libpsm2.so.2.2     000014C5069ADD8E  psm2_mq_ipeek         Unknown  Unknown
+libpsmx2-fi.so     000014C504E15480  Unknown               Unknown  Unknown
+libpsmx2-fi.so     000014C504E171B4  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014C5F342B3FE  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014C5F2FFA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014C5F358EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014C5F317E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000014C5F317991E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000015061E43CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000015061EBCF46B  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000015061E7FA996  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000015061ED8EB7E  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000015061E97E0A7  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   000015061E97991E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000145C98E3CA00  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145C995FFB30  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145C9962B3C2  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145C991FA7A1  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   0000145C9978EB7E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[n027:1092646:0:1092646] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1469cc430fff)
+[n027:1092660:0:1092660] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x145b9ac11fff)
+[n027:1092645:0:1092645] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x152bd9310fff)
+[n027:1092653:0:1092653] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x148910811fff)
+[n027:1092647:0:1092647] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x149975811fff)
+[n027:1092652:0:1092652] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x154fb9c11fff)
+[n027:1092657:0:1092657] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14d74b611fff)
+[n027:1092649:0:1092649] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14ec03c11fff)
+[n027:1092651:0:1092651] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x14b6ada71170)
+[n027:1092659:0:1092659] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x147a2b611fff)
+[n027:1092650:0:1092650] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14ab5f5cafff)
+[n027:1092658:0:1092658] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x15399b811fff)
+[n027:1092643:0:1092643] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14cec44acfff)
+[n027:1092648:0:1092648] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14c4f67cbfff)
+[n027:1092644:0:1092644] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x151f0dc8b170)
+[n027:1092656:0:1092656] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x150520211fff)
+[n027:1092655:0:1092655] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1532ac811fff)
+[n027:1092662:0:1092662] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x152212c71170)
+[n027:1092654:0:1092654] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14b7f2e11fff)

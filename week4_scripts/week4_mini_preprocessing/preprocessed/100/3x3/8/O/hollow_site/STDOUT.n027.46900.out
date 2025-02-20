@@ -1,0 +1,111 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.6  Build 20220227 (id: 28877f3f32)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): libfabric provider: psm2
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_skx_shm-ofi_psm2.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       1092643  n027.hpc   0
+[0] MPI startup(): 1       1092644  n027.hpc   1
+[0] MPI startup(): 2       1092645  n027.hpc   2
+[0] MPI startup(): 3       1092646  n027.hpc   3
+[0] MPI startup(): 4       1092647  n027.hpc   4
+[0] MPI startup(): 5       1092648  n027.hpc   5
+[0] MPI startup(): 6       1092649  n027.hpc   6
+[0] MPI startup(): 7       1092650  n027.hpc   7
+[0] MPI startup(): 8       1092651  n027.hpc   8
+[0] MPI startup(): 9       1092652  n027.hpc   9
+[0] MPI startup(): 10      1092653  n027.hpc   10
+[0] MPI startup(): 11      1092654  n027.hpc   11
+[0] MPI startup(): 12      1092655  n027.hpc   12
+[0] MPI startup(): 13      1092656  n027.hpc   13
+[0] MPI startup(): 14      1092657  n027.hpc   14
+[0] MPI startup(): 15      1092658  n027.hpc   15
+[0] MPI startup(): 16      1092659  n027.hpc   16
+[0] MPI startup(): 17      1092660  n027.hpc   17
+[0] MPI startup(): 18      1092661  n027.hpc   18
+[0] MPI startup(): 19      1092662  n027.hpc   19
+[0] MPI startup(): I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.6.0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): MPIR_CVAR_CH4_OFI_ENABLE_DATA=0
+[0] MPI startup(): I_MPI_DEBUG=5
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running   20 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on   20 cores,    1 groups
+ distr:  one band on    5 cores,    4 groups
+ vasp.6.3.2 27Jun22 (build Aug 17 2022 15:43:34) complex                        
+  
+ POSCAR found type information on POSCAR CuO 
+ POSCAR found :  2 types and     145 ions
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     Found issues when parsing the INCAR file                                |
+|     In line 61: Tagname --- R W I G S contains invalid characters.          |
+|     Please check if the interpretation in the OUTCAR file is correct.       |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ Reading from existing POTCAR
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     You use a magnetic or noncollinear calculation, but did not specify     |
+|     the initial magnetic moment with the MAGMOM tag. Note that a            |
+|     default of 1 will be used for all atoms. This ferromagnetic setup       |
+|     may break the symmetry of the crystal, in particular it may rule        |
+|     out finding an antiferromagnetic solution. Thence, we recommend         |
+|     setting the initial magnetic moment manually or verifying carefully     |
+|     that this magnetic setup is desired.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ scaLAPACK will be used
+ Reading from existing POTCAR
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You have a (more or less) 'large supercell' and for larger cells it     |
+|     might be more efficient to use real-space projection operators.         |
+|     Therefore, try LREAL= Auto in the INCAR file.                           |
+|     Mind: For very accurate calculation, you might also keep the            |
+|     reciprocal projection scheme (i.e. LREAL=.FALSE.).                      |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR CuO 
+ POSCAR found :  2 types and     145 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.156350947753E+05    0.15635E+05   -0.56226E+05 12336   0.190E+03
+DAV:   2     0.231432375378E+04   -0.13321E+05   -0.12745E+05 12336   0.453E+02
+DAV:   3    -0.368181608115E+03   -0.26825E+04   -0.24285E+04 12344   0.233E+02
+DAV:   4    -0.611627751079E+03   -0.24345E+03   -0.22607E+03 14456   0.953E+01
+DAV:   5    -0.621920175219E+03   -0.10292E+02   -0.10162E+02 15872   0.174E+01    0.113E+02

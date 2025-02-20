@@ -1,0 +1,104 @@
+/var/spool/slurm/job45189/slurm_script: line 13: /etc/profile.d/TMI.sh: No such file or directory
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 45189 ON n027 CANCELLED AT 2025-01-21T10:58:30 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 45189.0 ON n027 CANCELLED AT 2025-01-21T10:58:30 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001513B763CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  00001512BEF0DB62  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000147B5243CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000147A59D0DB77  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000015475E43CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000154665D0DAC0  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014AC96E3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014AB9E70DB3B  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014A3B163CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014A2B8F0DA47  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001541DF03CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  00001540E68E9A46  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000145CE943CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000145BF0D0DBF3  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014B340E3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014B2486E947E  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000015067483CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000015057C10DB13  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000153B41C3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000153A494E925D  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000154353C3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000015425B50DB27  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000015029F63CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  00001501A2BEDBD5  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000149D0043CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000149C07D0DA82  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014A232E3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014A13A70DA97  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000152C9163CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000152B98F0DB77  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000147E2603CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000147D2D8E9C8A  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001550C8C3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000154FD050DB3B  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014A98EE3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014A8966E9CAF  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000146CC0E3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000146BC870DA5B  mkl_blas_avx512_z     Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014C8F7C3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014C7FF50DB4F  mkl_blas_avx512_z     Unknown  Unknown

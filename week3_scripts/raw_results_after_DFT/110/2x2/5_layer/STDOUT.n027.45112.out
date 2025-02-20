@@ -1,0 +1,63 @@
+[0] MPI startup(): Intel(R) MPI Library, Version 2021.6  Build 20220227 (id: 28877f3f32)
+[0] MPI startup(): Copyright (C) 2003-2022 Intel Corporation.  All rights reserved.
+[0] MPI startup(): library kind: release
+[0] MPI startup(): libfabric version: 1.13.2rc1-impi
+[0] MPI startup(): libfabric provider: psm2
+[0] MPI startup(): File "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_skx_shm-ofi_psm2.dat" not found
+[0] MPI startup(): Load tuning file: "/opt/intel/oneapi/mpi/2021.6.0/etc/tuning_skx_shm-ofi.dat"
+[0] MPI startup(): Rank    Pid      Node name  Pin cpu
+[0] MPI startup(): 0       1016928  n027.hpc   0
+[0] MPI startup(): 1       1016929  n027.hpc   1
+[0] MPI startup(): 2       1016930  n027.hpc   2
+[0] MPI startup(): 3       1016931  n027.hpc   3
+[0] MPI startup(): 4       1016932  n027.hpc   4
+[0] MPI startup(): 5       1016933  n027.hpc   5
+[0] MPI startup(): 6       1016934  n027.hpc   6
+[0] MPI startup(): 7       1016935  n027.hpc   7
+[0] MPI startup(): 8       1016936  n027.hpc   8
+[0] MPI startup(): 9       1016937  n027.hpc   9
+[0] MPI startup(): 10      1016938  n027.hpc   10
+[0] MPI startup(): 11      1016939  n027.hpc   11
+[0] MPI startup(): 12      1016940  n027.hpc   12
+[0] MPI startup(): 13      1016941  n027.hpc   13
+[0] MPI startup(): 14      1016942  n027.hpc   14
+[0] MPI startup(): 15      1016943  n027.hpc   15
+[0] MPI startup(): 16      1016944  n027.hpc   16
+[0] MPI startup(): 17      1016945  n027.hpc   17
+[0] MPI startup(): 18      1016946  n027.hpc   18
+[0] MPI startup(): 19      1016947  n027.hpc   19
+[0] MPI startup(): I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.6.0
+[0] MPI startup(): I_MPI_HYDRA_TOPOLIB=hwloc
+[0] MPI startup(): I_MPI_INTERNAL_MEM_POLICY=default
+[0] MPI startup(): MPIR_CVAR_CH4_OFI_ENABLE_DATA=0
+[0] MPI startup(): I_MPI_DEBUG=5
+ ----------------------------------------------------
+    OOO  PPPP  EEEEE N   N M   M PPPP
+   O   O P   P E     NN  N MM MM P   P
+   O   O PPPP  EEEEE N N N M M M PPPP   -- VERSION
+   O   O P     E     N  NN M   M P
+    OOO  P     EEEEE N   N M   M P
+ ----------------------------------------------------
+ running   20 mpi-ranks, with    1 threads/rank
+ distrk:  each k-point on   20 cores,    1 groups
+ distr:  one band on    5 cores,    4 groups
+ vasp.6.3.2 27Jun22 (build Aug 17 2022 15:43:34) complex                        
+  
+ POSCAR found type information on POSCAR Cu
+ -----------------------------------------------------------------------------
+|                                                                             |
+|     EEEEEEE  RRRRRR   RRRRRR   OOOOOOO  RRRRRR      ###     ###     ###     |
+|     E        R     R  R     R  O     O  R     R     ###     ###     ###     |
+|     E        R     R  R     R  O     O  R     R     ###     ###     ###     |
+|     EEEEE    RRRRRR   RRRRRR   O     O  RRRRRR       #       #       #      |
+|     E        R   R    R   R    O     O  R   R                               |
+|     E        R    R   R    R   O     O  R    R      ###     ###     ###     |
+|     EEEEEEE  R     R  R     R  OOOOOOO  R     R     ###     ###     ###     |
+|                                                                             |
+|     ERROR: the type information is not consistent with the number of        |
+|     types                                                                   |
+|                                                                             |
+|       ---->  I REFUSE TO CONTINUE WITH THIS SICK JOB ... BYE!!! <----       |
+|                                                                             |
+ -----------------------------------------------------------------------------
+

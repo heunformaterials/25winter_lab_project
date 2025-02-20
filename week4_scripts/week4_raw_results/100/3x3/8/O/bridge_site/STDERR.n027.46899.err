@@ -1,0 +1,288 @@
+/var/spool/slurm/job46899/slurm_script: line 13: /etc/profile.d/TMI.sh: No such file or directory
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 46899.0 ON n027 CANCELLED AT 2025-01-31T01:58:01 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 46899 ON n027 CANCELLED AT 2025-01-31T01:58:01 DUE TO TIME LIMIT ***
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014BF9D83CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014BE9FF212EC  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  000014BE9FD9ADE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  000014BFA4FF0136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  000014BFA85AAD2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000121FD0E  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  0000000001C5ED86  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014DC1E43CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014DB24D122FC  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  000014DB24B8BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  000014DC25A3F136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  000014DC28FF9D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001462C6A3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  00001461CD312303  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  00001461CD18BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  00001462CE1A1136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  00001462D175BD2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089F963  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000149FDA63CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000149EE0D8BFCE  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  0000149FE1E28136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  0000149FE53E2D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000121FD0E  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  0000000001C5ED86  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  0000000001C35D86  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000147E8843CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000147D8ED1232A  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  0000147D8EB8BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  0000147E8FAFD136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  0000147E930B7D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014A2D883CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014A1DF112322  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  000014A1DEF8BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  000014A2DFEEF136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  000014A2E34A9D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089F963  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014625443CA00  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000008A01F5  Unknown               Unknown  Unknown
+libiomp5.so        0000146256F5FF13  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        0000146256ECF664  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        0000146256E88D23  __kmpc_fork_call      Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FBB2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000015487663CA00  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000008A018D  Unknown               Unknown  Unknown
+libiomp5.so        000015487915FF13  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        00001548790CF664  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        0000154879088D23  __kmpc_fork_call      Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000145B24E3CA00  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000008A00B3  Unknown               Unknown  Unknown
+libiomp5.so        0000145B2795FF13  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        0000145B278CF664  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        0000145B27888D23  __kmpc_fork_call      Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FBB2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001512B8A3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  00001511BF3125F6  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  00001511BF18BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  00001512C0062136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  00001512C361CD2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089F963  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014636D43CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000146273D12359  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  0000146273B8BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  0000146374A2E136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  0000146377FE8D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089F963  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000148BC163CA00  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000008A00CE  Unknown               Unknown  Unknown
+libiomp5.so        0000148BC415FF13  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        0000148BC40CF664  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        0000148BC4088D23  __kmpc_fork_call      Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FBB2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001536ACC3CA00  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000008A00F3  Unknown               Unknown  Unknown
+libiomp5.so        00001536AF75FF13  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        00001536AF6CF664  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        00001536AF688D23  __kmpc_fork_call      Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FBB2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001481FFE3CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014810671265B  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  000014810658BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  000014820754B136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  000014820AB05D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000150DB103CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000150CB791231B  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  0000150CB778BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  0000150DB8651136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  0000150DBBC0BD2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089F963  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000148A8E23CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000148994B12313  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  000014899498BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  0000148A95A0F136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  0000148A98FC9D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000152A11C3CA00  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000008A01A1  Unknown               Unknown  Unknown
+libiomp5.so        0000152A1475FF13  __kmp_invoke_micr     Unknown  Unknown
+libiomp5.so        0000152A146CF664  __kmp_fork_call       Unknown  Unknown
+libiomp5.so        0000152A14688D23  __kmpc_fork_call      Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FBB2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          000014DADC03CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  000014D9E291262C  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  000014D9E278BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  000014DAE36B8136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  000014DAE6C72D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000121FD0E  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  0000000001C5ED86  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          0000147D3523CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  0000147C3BB12322  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  0000147C3B98BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  0000147D3C885136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  0000147D3FE3FD2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089F963  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000118D4EF  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000121FD0E  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp.6.3.2.vtst.s  0000000001C953FB  for__signal_handl     Unknown  Unknown
+libc.so.6          00001455D563CA00  Unknown               Unknown  Unknown
+libmkl_avx512.so.  00001454DBF1265B  mkl_blas_avx512_d     Unknown  Unknown
+libmkl_avx512.so.  00001454DBD8BDE6  mkl_blas_avx512_x     Unknown  Unknown
+libmkl_intel_thre  00001455DCD57136  mkl_blas_dgemv        Unknown  Unknown
+libmkl_intel_lp64  00001455E0311D2A  dgemv_                Unknown  Unknown
+vasp.6.3.2.vtst.s  000000000089FA36  Unknown               Unknown  Unknown
+vasp.6.3.2.vtst.s  00000000009164E2  Unknown               Unknown  Unknown
+
+Stack trace terminated abnormally.
+[n027:1092323:0:1092323] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+[n027:1092325:0:1092325] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2a8ffe53f991)
+[n027:1092318:0:1092318] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+[n027:1092319:0:1092319] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x29b662d9a991)
+==== backtrace (tid:1092318) ====
+ 0  /lib64/libucs.so.0(ucs_handle_error+0x2e4) [0x14beb1596f14]
+ 1  /lib64/libucs.so.0(+0x2865d) [0x14beb159765d]
+ 2  /lib64/libucs.so.0(+0x28845) [0x14beb1597845]
+ 3  /lib64/libc.so.6(+0x81ff3) [0x14bf9d87fff3]
+ 4  /lib64/libc.so.6(__snprintf_chk+0xa4) [0x14bf9d91d894]
+ 5  /TGM/Apps/VASP/VASP_BIN/6.3.2/vasp.6.3.2.vtst.std.x() [0x1da4249]
+ 6  /TGM/Apps/VASP/VASP_BIN/6.3.2/vasp.6.3.2.vtst.std.x(tbk_trace_stack_impl+0x5f6) [0x1da615e]
+=================================
+==== backtrace (tid:1092323) ====
+ 0  /lib64/libucs.so.0(ucs_handle_error+0x2e4) [0x14a1ec4c0f14]
+ 1  /lib64/libucs.so.0(+0x2865d) [0x14a1ec4c165d]
+ 2  /lib64/libucs.so.0(+0x28845) [0x14a1ec4c1845]
+=================================
+[n027:1092324:0:1092324] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x146155b10fff)
+[n027:1092332:0:1092332] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x148ac2d10fff)
+[n027:1092320:0:1092320] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1461c8110fff)
+[n027:1092335:0:1092335] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x150cb2a11fff)
+[n027:1092334:0:1092334] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x148101811fff)
+[n027:1092326:0:1092326] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14d9dda11fff)
+[n027:1092336:0:1092336] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x14898fc11fff)
+[n027:1092329:0:1092329] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1511ba411fff)
+[n027:1092330:0:1092330] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x146281055170)
+[n027:1092331:0:1092331] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1454d7011fff)
+[n027:1092328:0:1092328] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x145a26811fff)
+[n027:1092333:0:1092333] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x1535ae611fff)
+[n027:1092337:0:1092337] Caught signal 11 (Segmentation fault: invalid permissions for mapped object at address 0x152925bb2170)

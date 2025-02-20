@@ -1,0 +1,4 @@
+/var/spool/slurm/job47158/slurm_script: line 14: /etc/profile.d/TMI.sh: No such file or directory
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 47158 ON n038 CANCELLED AT 2025-02-10T14:21:08 ***
+slurmstepd: error: *** STEP 47158.0 ON n038 CANCELLED AT 2025-02-10T14:21:08 ***
