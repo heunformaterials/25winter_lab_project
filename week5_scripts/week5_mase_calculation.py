@@ -91,7 +91,7 @@ def calculate_surface_energy(file_path, slab_energy, e0_bulk):
 
 def compare_calculators(new_poscar_dir_path, calculator):
     calculator_name = input('what is calculator name and model?: ')
-    e0_bulk_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\Bulk_energy_calculation\POSCAR"
+    e0_bulk_calculation_file_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\Bulk_energy_calculation\POSCAR"
     for root, dirs, files in os.walk(new_poscar_dir_path):
         for file in files:
             if file.startswith("POSCAR"):
@@ -100,7 +100,7 @@ def compare_calculators(new_poscar_dir_path, calculator):
                     dir_path = os.path.join(root)
                     file_path = os.path.join(root, file)
                     atoms = read(file_path)
-                    e0_bulk_atoms = read(e0_bulk_path)
+                    e0_bulk_atoms = read(e0_bulk_calculation_file_path)
                 except Exception as e:
                     print(f"파일 읽기 오류: {file}, 오류 메시지: {e}")
                     continue
@@ -127,8 +127,8 @@ def compare_calculators(new_poscar_dir_path, calculator):
                     write(new_poscar_file, CONTCAR_slab)
 
 #계산기 선언
-#calc_EMT = EMT()
-calc_MACE = mace_mp(model="medium", dispersion=False, default_dtype="float64")
+calc_EMT = EMT()
+#calc_MACE = mace_mp(model="medium", dispersion=False, default_dtype="float64")
 #실행 코드
 poscar_dir_path_1 = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\raw_results_after_DFT"
 poscar_dir_path_2 = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week4_scripts\week4_raw_results"
@@ -137,8 +137,8 @@ output_dir_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_s
 #harvest_poscars(poscar_dir_path_1, output_dir_path)
 #harvest_poscars(poscar_dir_path_2, output_dir_path)
 test_new_poscar_dir_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\calculators_comparision\POSCAR_100_1x1_6"
-#calculator = calc_EMT
-calculator = calc_MACE
+calculator = calc_EMT
+#calculator = calc_MACE
 
 compare_calculators(output_dir_path, calculator)
 
