@@ -3,7 +3,7 @@ amsgrad: true
 batch_size: 5
 checkpoints_dir: MACE_test_models
 default_dtype: float32
-device: cpu
+device: cuda
 ema: true
 ema_decay: 0.99
 energy_key: energy_xtb
@@ -24,6 +24,6 @@ results_dir: MACE_test_models
 scaling: rms_forces_scaling
 seed: 123
 swa: true
-test_file: ./mace_fine_tuning_data_set/test_size_v1/Cu_slab_test_H2_8_non_5.xyz
-train_file: ./mace_fine_tuning_data_set/test_size_v1/Cu_slab_train_H2_36_non_18.xyz
-valid_file: ./mace_fine_tuning_data_set/test_size_v1/Cu_slab_valid_H2_8_non_5.xyz
+test_file: C:\Users\user\PycharmProjects\PythonProject\mace_venv\training_data_from_laptop\mace_fine_tuning_data_set\test_size_v1\Cu_slab_test_H2_8_non_5.xyz
+train_file: C:\Users\user\PycharmProjects\PythonProject\mace_venv\training_data_from_laptop\mace_fine_tuning_data_set\test_size_v1\Cu_slab_train_H2_36_non_18.xyz
+valid_file: C:\Users\user\PycharmProjects\PythonProject\mace_venv\training_data_from_laptop\mace_fine_tuning_data_set\test_size_v1\Cu_slab_valid_H2_8_non_5.xyz

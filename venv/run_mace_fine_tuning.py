@@ -32,5 +32,5 @@ def train_mace(config_file_path):
     sys.stdout.flush()  # 강제 출력
 
 # 실행 코드 (JSON 파일 사용 가능)
-config_file_path = "./config_test_v1.json"  # JSON 파일 사용 가능
+config_file_path = "./config_test_v2.json"  # JSON 파일 사용 가능
 train_mace(config_file_path)

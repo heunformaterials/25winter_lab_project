@@ -73,5 +73,5 @@ def compare_models(poscar_path, trained_model_path, original_model_path, device=
 # 실행 예제
 poscar_path = "path/to/POSCAR"
 trained_model_path = "path/to/trained_mace.pth"
-original_model_path = "path/to/original_mace.pth"
+original_model_path = "medium"
 compare_models(poscar_path, trained_model_path, original_model_path, device="cuda")
