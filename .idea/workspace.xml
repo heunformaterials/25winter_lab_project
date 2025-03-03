@@ -4,35 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="648ee3f5-090b-4614-9c80-8a98b08a82eb" name="Changes" comment="my fine tuning project">
-      <change afterPath="$PROJECT_DIR$/single_task/find_hollow_site.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week4_scripts/week4_results_to_plot_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_scripts/ema_potential_reference/Cu_lammps.eam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_edit_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_harvest_poscars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_results_to_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_results_to_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_run_whole_processes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CCEL_25winter_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CCEL_25winter_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="648ee3f5-090b-4614-9c80-8a98b08a82eb" name="Changes" comment="new javascript project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit_test_colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/commit_test_colab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_while_working.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice_while_working.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_task/direct_to_cartesian_for_poscar.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_task/direct_to_cartesian_for_poscar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/config_test_v1.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/config_test_v1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/config_test_v1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/venv/config_test_v1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/venv_just_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/venv_just_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Adsorption energy of 100 3x3 size_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Adsorption energy of 3x3 size for 100 110 111_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Adsorption energy of H2 for 100 110 111_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Coverage Comparsion 100 H2_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Coverage Comparsion 110 H2_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Coverage Comparsion 111 H2_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_processed_results.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_processed_results.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_result_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4_scripts/week4_result_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_result_processing_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4_scripts/week4_result_processing_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5_scripts/week5_adsorption_energy_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5_scripts/week5_adsorption_energy_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5_scripts/week5_mase_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5_scripts/week5_slab_energy_by_various_calculators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,52 +72,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.practice_while_working.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.winter_lab_intern01.js.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SchNetPack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.SchNetPack_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contcar_to_vesta.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contcar_to_xyz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.direct_to_cartesian_for_poscar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_hollow_site.executor&quot;: &quot;Run&quot;,
-    &quot;Python.harvest_my_contcar_files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.just_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.just_test_mace.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mace_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mace_tutorial_visulalize.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_mace_fine_tuning.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_valid_test_xyz_generater.executor&quot;: &quot;Run&quot;,
-    &quot;Python.venv_just_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week3_POSCAR_editer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week4_contcar_to_vesta.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week4_result_processing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week4_results_to_plot_v2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_adsorption_energy_calculation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_edit_files.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_mase_calculation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_result_plotting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_results_to_excel (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_results_to_plot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_run_whole_processes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week5_slab_energy_by_various_calculators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yml_to_json.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/spark/PycharmProjects/CCEL_25winter_project/week5_scripts/ema_potential_reference&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "JavaScript Debug.practice_while_working.html.executor": "Run",
+    "Node.js.winter_lab_intern01.js.executor": "Run",
+    "Python.SchNetPack.executor": "Run",
+    "Python.SchNetPack_test.executor": "Run",
+    "Python.contcar_to_vesta.executor": "Run",
+    "Python.contcar_to_xyz.executor": "Run",
+    "Python.direct_to_cartesian_for_poscar.executor": "Run",
+    "Python.find_hollow_site.executor": "Run",
+    "Python.harvest_my_contcar_files.executor": "Run",
+    "Python.just_test.executor": "Run",
+    "Python.just_test_mace.executor": "Run",
+    "Python.mace_test.executor": "Run",
+    "Python.mace_tutorial_visulalize.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.run_mace_fine_tuning.executor": "Run",
+    "Python.train_valid_test_xyz_generater.executor": "Run",
+    "Python.venv_just_test.executor": "Run",
+    "Python.week3_POSCAR_editer.executor": "Run",
+    "Python.week4_contcar_to_vesta.executor": "Run",
+    "Python.week4_result_processing.executor": "Run",
+    "Python.week4_results_to_plot_v2.executor": "Run",
+    "Python.week5_adsorption_energy_calculation.executor": "Run",
+    "Python.week5_edit_files.executor": "Run",
+    "Python.week5_mase_calculation.executor": "Run",
+    "Python.week5_result_plotting.executor": "Run",
+    "Python.week5_results_to_excel (1).executor": "Run",
+    "Python.week5_results_to_plot.executor": "Run",
+    "Python.week5_run_whole_processes.executor": "Run",
+    "Python.week5_slab_energy_by_various_calculators.executor": "Run",
+    "Python.yml_to_json.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/spark/PycharmProjects/CCEL_25winter_project/week5_scripts/ema_potential_reference",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\ema_potential_reference" />
@@ -154,11 +128,11 @@
       <recent name="C:\Users\spark\PycharmProjects\STDparser\data\week4_mini_preprocessing\input_files\POTCAR_Cu+H" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\javascript_train" />
+      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week4_scripts" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\raw_results_after_DFT" />
-      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\raw_file_before_DFT" />
-      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\final_results_excel" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.winter_lab_intern01.js">
@@ -348,7 +322,55 @@
       <option name="project" value="LOCAL" />
       <updated>1740411567368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new javascript project">
+      <option name="closed" value="true" />
+      <created>1740971966440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740971966440</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new javascript project">
+      <option name="closed" value="true" />
+      <created>1740972477860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740972477860</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new javascript project">
+      <option name="closed" value="true" />
+      <created>1740972893457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740972893457</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new javascript project">
+      <option name="closed" value="true" />
+      <created>1740972911974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740972911974</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new javascript project">
+      <option name="closed" value="true" />
+      <created>1740973743436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740973743436</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new javascript project">
+      <option name="closed" value="true" />
+      <created>1740974084023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740974084023</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +389,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my fine tuning project" />
-    <option name="LAST_COMMIT_MESSAGE" value="my fine tuning project" />
+    <MESSAGE value="new javascript project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new javascript project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

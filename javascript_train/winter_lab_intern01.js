@@ -4,6 +4,15 @@ const axios = require("axios");
 
 const app = express();
 const PORT = process.env.PORT || 80;  // 80번 포트 사용
+// 기본 라우트 설정
+app.get('/', (req, res) => {
+    res.send('Server is running!');
+});
+
+// 서버 실행
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server is running on port ${PORT}`);
+});
 
 app.use(express.static("public"))
 
