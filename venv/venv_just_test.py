@@ -1,3 +1,5 @@
+import ase.io
+
 import torch
 
 # 학습 코드 실행 중이라면 현재 모델을 메모리에 가지고 있을 가능성이 있음

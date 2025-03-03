@@ -37,7 +37,20 @@ def direct2cartesian(contcar_lines):
                     break  # 숫자가 아닌 값이 나오면 종료
 
     #검사 코드
-    a_num = int(lines[6])
+    a_num = 0
+    for n in lines[6].split():
+        a_num += int(n)
+
+    fined_line = ""
+    for l in lines[5].split():
+        fined_line += l + " "
+    lines[5] = fined_line + "\n"
+
+    fined_line = ""
+    for l in lines[6].split():
+        fined_line += l + " "
+    lines[6] = fined_line + "\n"
+
     c_num = len(cartesian_coords)
     if a_num != c_num:
         mismatch_num = a_num - c_num
@@ -80,8 +93,8 @@ def direct2cartesian(contcar_lines):
     return new_lines
 
 #윈도우 directory 환경에서 바로 돌린다
-contcar_file_path = r"C:\Users\spark\Desktop\winter_lab\MLP교육\CONTCAR" # Input file path
-output_file = r"C:\Users\spark\Desktop\winter_lab\MLP교육\POSCAR"  # Output file path
+contcar_file_path = r"C:\Users\spark\Desktop\winter_lab\lecture_5\CONTCAR" # Input file path
+output_file = r"C:\Users\spark\Desktop\winter_lab\lecture_5\POSCAR"  # Output file path
 
 with open(contcar_file_path, 'r') as file:
     contcar_lines = file.readlines()

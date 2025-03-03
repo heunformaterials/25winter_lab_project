@@ -77,7 +77,6 @@ def energy_from_oszicar(file_path):
 #layer_info에서 week3의 slab energy, E0 2개를 가져오는 함수
 def slab_energy_from_week3(file_path, layer_pattern):
     import pandas as pd
-    import re
     import os
 
     # 정규 표현식으로 레이어 정보 추출
@@ -91,7 +90,7 @@ def slab_energy_from_week3(file_path, layer_pattern):
     search_strings = [layer_info_plane, layer_info_matrix, layer_number]
 
     # 엑셀 파일 경로 설정 및 존재 여부 확인
-    week3_excel_path = r'/week3_scripts/final_results_excel/week3_result.xlsx'
+    week3_excel_path = r'C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\final_results_excel\week3_result.xlsx'
     if not os.path.exists(week3_excel_path):
         raise FileNotFoundError(f"엑셀 파일을 찾을 수 없습니다: {week3_excel_path}")
 

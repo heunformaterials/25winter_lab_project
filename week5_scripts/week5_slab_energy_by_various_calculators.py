@@ -1,14 +1,9 @@
-'''
-mase, XTB를 활용해서 지금까지 했던 POSCAR 파일들을 다시 계산해보자!
-'''
 
 from mace.calculators import mace_mp
 from ase.calculators.emt import EMT
 from ase.optimize import LBFGS
 from ase.io import read, write
 from copy import deepcopy
-from pathlib import Path
-import shutil
 import os
 import re
 
@@ -18,47 +13,6 @@ def atoms_optimizer(atoms_origin, calculator, fmax=0.05, max_steps=100):
       opt = LBFGS(atoms)
       opt.run(fmax=fmax, steps=max_steps)
       return atoms.get_total_energy(), atoms
-
-def harvest_poscars(poscar_dir_path, output_dir_path): #dir_root is 'str'
-    output_non_ads_dir_path = os.path.join(output_dir_path, 'non_adsorbants')
-    output_with_ads_dir_path = os.path.join(output_dir_path, 'with_adsorbants')
-    if not os.path.exists(output_dir_path):
-        os.makedirs(output_dir_path)
-        os.makedirs(output_non_ads_dir_path)
-        os.makedirs(output_with_ads_dir_path)
-    data_tree_root_name = Path(poscar_dir_path).parts[-1]
-    for root, dirs, files in os.walk(poscar_dir_path):
-        for file in files:
-            if file == "POSCAR":
-                file_path = os.path.join(root, file)
-                # 파일 크기 확인
-                if os.path.getsize(file_path) == 0:
-                    print(f"파일이 비어 있습니다: {file_path}")
-                    continue
-
-                file_dir = os.path.dirname(file_path)
-                # "data tree의 root"에 대한 인덱스 찾기
-                file_path_list = Path(file_path).parts
-                project_index = next((i for i, path in enumerate(file_path_list) if data_tree_root_name in path), None)
-                contcar_info = file_path_list[project_index + 1: -1]
-                new_filename = "POSCAR"
-                for name in contcar_info:
-                    new_filename += '_' + name.split("_")[0]
-                new_dir_name = new_filename
-                if 'H' in file_path_list or 'O' in file_path_list or 'H2' in file_path_list:
-                    os.makedirs(os.path.join(output_with_ads_dir_path, new_dir_name), exist_ok=True)
-                    new_dir_path = os.path.join(output_with_ads_dir_path, new_dir_name)
-                    new_file_path = os.path.join(new_dir_path, new_filename)
-                else:
-                    os.makedirs(os.path.join(output_non_ads_dir_path, new_dir_name), exist_ok=True)
-                    new_dir_path = os.path.join(output_non_ads_dir_path, new_dir_name)
-                    new_file_path = os.path.join(new_dir_path, new_filename)
-
-                try:
-                    shutil.copy2(file_path, new_file_path)  # 파일 복사
-                    print(f"파일 복사 및 이름 변경 완료: {new_file_path}")
-                except Exception as e:
-                    print(f"파일 이동 중 오류 발생: {e}")
 
 # Function to process OSZICAR files to get layer_info and surface energy
 def calculate_surface_energy(file_path, slab_energy, e0_bulk):
@@ -89,13 +43,11 @@ def calculate_surface_energy(file_path, slab_energy, e0_bulk):
             surface_energy = "Calculation Error"
         return surface_energy
 
-def compare_calculators(new_poscar_dir_path, calculator):
-    calculator_name = input('what is calculator name and model?: ')
+def compare_calculators(new_poscar_dir_path, calculator, calculator_name):
     e0_bulk_calculation_file_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\Bulk_energy_calculation\POSCAR"
     for root, dirs, files in os.walk(new_poscar_dir_path):
         for file in files:
             if file.startswith("POSCAR"):
-                # POSCAR 파일을 Atoms 객체로 변환
                 try:
                     dir_path = os.path.join(root)
                     file_path = os.path.join(root, file)
@@ -126,19 +78,48 @@ def compare_calculators(new_poscar_dir_path, calculator):
                 with open(new_poscar_file, 'w') as file:
                     write(new_poscar_file, CONTCAR_slab)
 
-#계산기 선언
-calc_EMT = EMT()
-#calc_MACE = mace_mp(model="medium", dispersion=False, default_dtype="float64")
-#실행 코드
-poscar_dir_path_1 = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\raw_results_after_DFT"
-poscar_dir_path_2 = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week4_scripts\week4_raw_results"
-output_dir_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\calculators_comparision"
 
-#harvest_poscars(poscar_dir_path_1, output_dir_path)
-#harvest_poscars(poscar_dir_path_2, output_dir_path)
-test_new_poscar_dir_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\calculators_comparision\POSCAR_100_1x1_6"
-calculator = calc_EMT
-#calculator = calc_MACE
+def ask_question(question, options):
+    import tkinter as tk
+    root = tk.Tk()
+    root.withdraw()
+    popup = tk.Toplevel(root)
+    popup.title("선택")
+    popup.geometry(f"300x{min(100 + len(options) * 30, 500)}")
+    popup.resizable(False, False)
+    label = tk.Label(popup, text=question, font=("Arial", 12))
+    label.pack(pady=10)
+    selected_option = tk.StringVar()
 
-compare_calculators(output_dir_path, calculator)
+    def on_select(option):
+        selected_option.set(option)
+        popup.destroy()  # 창 닫기
+
+    for option in options:
+        button = tk.Button(popup, text=option, font=("Arial", 10), width=15,
+                           command=lambda opt=option: on_select(opt))
+        button.pack(pady=5)
+
+    popup.wait_window()  # 사용자가 선택할 때까지 대기
+    return selected_option.get()
+
+#실행
+if __name__ == "__main__":
+    options = ["EMT", "mace_medium", "mace_medium-mpa-0"]
+    what_is_the_calculator = ask_question("What type of calculator?", options)
+
+    calculator_name = what_is_the_calculator
+    if what_is_the_calculator == "EMT":
+        calculator = EMT()
+    elif what_is_the_calculator == "mace_medium":
+        calculator = mace_mp(model="medium", dispersion=False, default_dtype="float64")
+    elif what_is_the_calculator == "mace_medium-mpa-0":
+        calculator = mace_mp(model="medium-mpa-0", dispersion=False, default_dtype="float32")
+    else:
+        print("잘못된 입력입니다. 프로그램을 종료합니다.")
+
+    output_dir_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\calculators_comparision"
+    #test_new_poscar_dir_path = r"C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\calculators_comparision\POSCAR_100_1x1_6"
+
+    compare_calculators(output_dir_path, calculator, calculator_name)
 

@@ -50,7 +50,8 @@ def week4_result_preocessing(data_directory, processed_excel_path):
                     week3_E0_list.append(E0_week3)
                     job_name = ''
                     for a in list(file_path_list[project_index + 1:-1]):
-                        job_name += a + ' '
+                        job_name += a + '_'
+                    job_name = job_name.strip('_')
                     job_name_list.append(job_name)
                     energy_ads_list.append(E_ads)
                     jule_energy_ads_list.append(16.0217 * E_ads)
@@ -135,7 +136,6 @@ def draw_plot(job_names,  values, column_names, plot_directory, plot_name):
 #각 task를 실행하는 함수
 def do_task(df, plane_size, plane_type, adsorbate, plot_name, plot_directory):
     column_names = df.columns.tolist()
-    # task1
     task_job_names, task_values = [], []
     for ad in adsorbate:
         for ps in plane_size:
@@ -163,7 +163,6 @@ def extract_key(s):
         return s  # 기본적으로 전체 문자열을 키로 사용
 def do_task_2(df, plane_size, plane_type, adsorbate, plot_name, plot_directory):
     column_names = df.columns.tolist()
-    # task1
     task_job_names, task_values = [], []
     for ad in adsorbate:
         for ps in plane_size:
@@ -191,12 +190,19 @@ def week4_result_plotting_task(processed_excel_path, plot_directory):
     plot_name = 'Adsorption energy of 100 3x3 size'
     do_task(df, plane_size, plane_type, adsorbate, plot_name, plot_directory)
 
-    #task2
+    #task2-1
     task_job_names, task_values = [], []
-    plane_size = ['3x3']
+    plane_size = ['1x1']
     plane_type = SlabCalculation().plane_type_list
     adsorbate = SlabCalculation().adsorbate
-    plot_name = 'Adsorption energy of 3x3 size for 100 110 111'
+    plot_name = 'Adsorption energy of 1x1 size for 100 110 111'
+    do_task(df, plane_size, plane_type, adsorbate, plot_name, plot_directory)
+    # task2-2
+    task_job_names, task_values = [], []
+    plane_size = ['2x2']
+    plane_type = SlabCalculation().plane_type_list
+    adsorbate = SlabCalculation().adsorbate
+    plot_name = 'Adsorption energy of 2x2 size for 100 110 111'
     do_task(df, plane_size, plane_type, adsorbate, plot_name, plot_directory)
 
     # task3

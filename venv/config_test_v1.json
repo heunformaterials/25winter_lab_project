@@ -15,7 +15,7 @@
     "log_dir": "MACE_test_models",
     "lr": 0.0005,
     "max_L": 0,
-    "max_num_epochs": 100,
+    "max_num_epochs": 200,
     "model": "MACE",
     "model_dir": "MACE_test_models",
     "name": "mace_fine_tuning_v1",

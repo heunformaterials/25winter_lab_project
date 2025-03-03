@@ -5,13 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="648ee3f5-090b-4614-9c80-8a98b08a82eb" name="Changes" comment="my fine tuning project">
-      <changelist_data name="seanjongheunkim" email="olympic1234@snu.ac.kr" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/single_task/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_task/change_job_name_of_run_slurm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_task/clean_dir_in_mobaXterm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_task/contcar_to_vesta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_task/direct_to_cartesian_for_poscar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_task/just_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_task/find_hollow_site.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4_scripts/week4_results_to_plot_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_scripts/ema_potential_reference/Cu_lammps.eam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_edit_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_harvest_poscars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_results_to_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_results_to_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5_scripts/week5_run_whole_processes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CCEL_25winter_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CCEL_25winter_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commit_test_colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/commit_test_colab.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice_while_working.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice_while_working.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_task/direct_to_cartesian_for_poscar.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_task/direct_to_cartesian_for_poscar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/config_test_v1.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/config_test_v1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/config_test_v1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/venv/config_test_v1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/venv_just_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/venv_just_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Adsorption energy of 100 3x3 size_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Adsorption energy of 3x3 size for 100 110 111_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Adsorption energy of H2 for 100 110 111_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Coverage Comparsion 100 H2_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Coverage Comparsion 110 H2_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_Coverage Comparsion 111 H2_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_processed_results.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/week4_scripts/week4_processed_results/week4_processed_results.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_result_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4_scripts/week4_result_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_scripts/week4_result_processing_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/week4_scripts/week4_result_processing_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5_scripts/week5_adsorption_energy_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5_scripts/week5_adsorption_energy_calculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5_scripts/week5_mase_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/week5_scripts/week5_slab_energy_by_various_calculators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +58,15 @@
         <option value="seanjongheunkim &lt;olympic1234@snu.ac.kr&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;heunformaterials&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -47,6 +75,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/heunformaterials/25winter_lab_project.git&quot;,
+    &quot;accountId&quot;: &quot;b4035a95-680b-4ac4-80c6-c113ea0cc126&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,81 +92,80 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2rhzRi28LbdWqFkiPptdOYV96Wx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.SchNetPack.executor": "Run",
-    "Python.SchNetPack_test.executor": "Run",
-    "Python.contcar_to_vesta.executor": "Run",
-    "Python.contcar_to_xyz.executor": "Run",
-    "Python.harvest_my_contcar_files.executor": "Run",
-    "Python.just_test.executor": "Run",
-    "Python.just_test_mace.executor": "Run",
-    "Python.mace_test.executor": "Run",
-    "Python.mace_tutorial_visulalize.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.run_mace_fine_tuning.executor": "Run",
-    "Python.train_valid_test_xyz_generater.executor": "Run",
-    "Python.venv_just_test.executor": "Run",
-    "Python.week3_POSCAR_editer.executor": "Run",
-    "Python.week4_contcar_to_vesta.executor": "Run",
-    "Python.week4_result_processing.executor": "Run",
-    "Python.yml_to_json.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/spark/PycharmProjects/CCEL_25winter_project/venv/tutorials",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.practice_while_working.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.winter_lab_intern01.js.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SchNetPack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SchNetPack_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contcar_to_vesta.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contcar_to_xyz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.direct_to_cartesian_for_poscar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_hollow_site.executor&quot;: &quot;Run&quot;,
+    &quot;Python.harvest_my_contcar_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.just_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.just_test_mace.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mace_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mace_tutorial_visulalize.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_mace_fine_tuning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_valid_test_xyz_generater.executor&quot;: &quot;Run&quot;,
+    &quot;Python.venv_just_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week3_POSCAR_editer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week4_contcar_to_vesta.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week4_result_processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week4_results_to_plot_v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_adsorption_energy_calculation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_edit_files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_mase_calculation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_result_plotting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_results_to_excel (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_results_to_plot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_run_whole_processes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week5_slab_energy_by_various_calculators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yml_to_json.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/spark/PycharmProjects/CCEL_25winter_project/week5_scripts/ema_potential_reference&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts\ema_potential_reference" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\venv\tutorials" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\venv\mace_cal_data\slab_optimization" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\Mace_test" />
       <recent name="C:\Users\spark\PycharmProjects\STDparser\data\week4_mini_preprocessing\input_files\POTCAR_Cu+H" />
-      <recent name="C:\Users\spark\PycharmProjects\STDparser\data\week4_mini_preprocessing\input_files\POTCAR_Cu+O" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week5_scripts" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week4_scripts" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\raw_results_after_DFT" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\raw_file_before_DFT" />
       <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\week3_scripts\final_results_excel" />
-      <recent name="C:\Users\spark\PycharmProjects\CCEL_25winter_project\Mace_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_mace_fine_tuning">
-    <configuration name="contcar_to_xyz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCEL_25winter_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/contcar_to_xyz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="Node.js.winter_lab_intern01.js">
+    <configuration name="practice_while_working.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CCEL_25winter_project/practice_while_working.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="winter_lab_intern01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript_train/winter_lab_intern01.js" working-dir="$PROJECT_DIR$/javascript_train">
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -158,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_mace_fine_tuning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="week5_results_to_excel (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCEL_25winter_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +200,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5_scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/run_mace_fine_tuning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5_scripts/week5_results_to_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_valid_test_xyz_generater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="week5_results_to_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCEL_25winter_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,12 +223,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5_scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/train_valid_test_xyz_generater.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5_scripts/week5_results_to_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="venv_just_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="week5_run_whole_processes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CCEL_25winter_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,35 +246,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week5_scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/venv_just_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="yml_to_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CCEL_25winter_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/yml_to_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week5_scripts/week5_run_whole_processes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_mace_fine_tuning" />
-        <item itemvalue="Python.yml_to_json" />
-        <item itemvalue="Python.venv_just_test" />
-        <item itemvalue="Python.train_valid_test_xyz_generater" />
-        <item itemvalue="Python.contcar_to_xyz" />
+        <item itemvalue="Node.js.winter_lab_intern01.js" />
+        <item itemvalue="JavaScript Debug.practice_while_working.html" />
+        <item itemvalue="Python.week5_results_to_plot" />
+        <item itemvalue="Python.week5_run_whole_processes" />
+        <item itemvalue="Python.week5_results_to_excel (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +297,24 @@
       <workItem from="1739937043474" duration="4640000" />
       <workItem from="1739942715883" duration="4246000" />
       <workItem from="1740012491507" duration="17964000" />
-      <workItem from="1740054087066" duration="3372000" />
+      <workItem from="1740054087066" duration="4912000" />
+      <workItem from="1740099495412" duration="2566000" />
+      <workItem from="1740105061242" duration="13000" />
+      <workItem from="1740110017432" duration="180000" />
+      <workItem from="1740111822823" duration="66000" />
+      <workItem from="1740112548728" duration="11000" />
+      <workItem from="1740113048950" duration="4123000" />
+      <workItem from="1740136914407" duration="2030000" />
+      <workItem from="1740362314744" duration="19984000" />
+      <workItem from="1740407885158" duration="1652000" />
+      <workItem from="1740441666885" duration="16106000" />
+      <workItem from="1740471864773" duration="66000" />
+      <workItem from="1740476804993" duration="8118000" />
+      <workItem from="1740530896671" duration="19714000" />
+      <workItem from="1740616988273" duration="925000" />
+      <workItem from="1740623225610" duration="593000" />
+      <workItem from="1740708284357" duration="1421000" />
+      <workItem from="1740709978022" duration="7752000" />
     </task>
     <task id="LOCAL-00001" summary="my fine tuning project">
       <option name="closed" value="true" />
@@ -297,7 +324,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740060501678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="my fine tuning project">
+      <option name="closed" value="true" />
+      <created>1740136980783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740136980783</updated>
+    </task>
+    <task id="LOCAL-00003" summary="my fine tuning project">
+      <option name="closed" value="true" />
+      <created>1740382479987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740382479987</updated>
+    </task>
+    <task id="LOCAL-00004" summary="my fine tuning project">
+      <option name="closed" value="true" />
+      <created>1740411567368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740411567368</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,30 +425,40 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/week4_scripts/week4_result_processing.py</url>
-          <line>119</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/week4_scripts/week4_processing.py</url>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$main.coverage" NAME="main Coverage Results" MODIFIED="1739767160931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$mace_test.coverage" NAME="mace_test Coverage Results" MODIFIED="1739944496768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$main.coverage" NAME="main Coverage Results" MODIFIED="1739767160931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$contcar_to_vesta.coverage" NAME="contcar_to_vesta Coverage Results" MODIFIED="1739771536861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/single_task" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$venv_just_test.coverage" NAME="venv_just_test Coverage Results" MODIFIED="1740035053321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_edit_files.coverage" NAME="week5_edit_files Coverage Results" MODIFIED="1740467806173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$just_test_mace.coverage" NAME="just_test_mace Coverage Results" MODIFIED="1739938103816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mace_test" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$run_mace_fine_tuning.coverage" NAME="run_mace_fine_tuning Coverage Results" MODIFIED="1740036286719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$find_hollow_site.coverage" NAME="find_hollow_site Coverage Results" MODIFIED="1740363633021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/single_task" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$SchNetPack_test.coverage" NAME="SchNetPack_test Coverage Results" MODIFIED="1739930886372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mlp_venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$train_valid_test_xyz_generater.coverage" NAME="train_valid_test_xyz_generater Coverage Results" MODIFIED="1740031612492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week4_result_processing.coverage" NAME="week4_result_processing Coverage Results" MODIFIED="1740465717781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_results_to_plot.coverage" NAME="week5_results_to_plot Coverage Results" MODIFIED="1740551151301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_mase_calculation.coverage" NAME="week5_mase_calculation Coverage Results" MODIFIED="1740460143708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$just_test.coverage" NAME="just_test Coverage Results" MODIFIED="1739930955960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/single_task" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$contcar_to_xyz.coverage" NAME="contcar_to_xyz Coverage Results" MODIFIED="1740028141942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$week3_POSCAR_editer.coverage" NAME="week3_POSCAR_editer Coverage Results" MODIFIED="1740013556938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week3_scripts" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$mace_tutorial_visulalize.coverage" NAME="mace_tutorial_visulalize Coverage Results" MODIFIED="1740015524534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$harvest_my_contcar_files.coverage" NAME="harvest_my_contcar_files Coverage Results" MODIFIED="1740025570800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$contcar_to_vesta.coverage" NAME="contcar_to_vesta Coverage Results" MODIFIED="1739771536861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/single_task" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$venv_just_test.coverage" NAME="venv_just_test Coverage Results" MODIFIED="1740035053321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_adsorption_energy_calculation.coverage" NAME="week5_adsorption_energy_calculation Coverage Results" MODIFIED="1740546750759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_slab_energy_by_various_calculators.coverage" NAME="week5_slab_energy_by_various_calculators Coverage Results" MODIFIED="1740536214152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week4_results_to_plot_v2.coverage" NAME="week4_results_to_plot_v2 Coverage Results" MODIFIED="1740535124695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_run_whole_processes.coverage" NAME="week5_run_whole_processes Coverage Results" MODIFIED="1740550926296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_result_plotting.coverage" NAME="week5_result_plotting Coverage Results" MODIFIED="1740463011674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$SchNetPack.coverage" NAME="SchNetPack Coverage Results" MODIFIED="1739928344630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$just_test_mace.coverage" NAME="just_test_mace Coverage Results" MODIFIED="1739938103816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mace_test" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$run_mace_fine_tuning.coverage" NAME="run_mace_fine_tuning Coverage Results" MODIFIED="1740036286719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$SchNetPack_test.coverage" NAME="SchNetPack_test Coverage Results" MODIFIED="1739930886372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mlp_venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$direct_to_cartesian_for_poscar.coverage" NAME="direct_to_cartesian_for_poscar Coverage Results" MODIFIED="1740363626457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/single_task" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$week4_contcar_to_vesta.coverage" NAME="week4_contcar_to_vesta Coverage Results" MODIFIED="1739773157008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4_scripts" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week4_result_processing.coverage" NAME="week4_result_processing Coverage Results" MODIFIED="1739855448409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week4_scripts" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$train_valid_test_xyz_generater.coverage" NAME="train_valid_test_xyz_generater Coverage Results" MODIFIED="1740031612492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$just_test.coverage" NAME="just_test Coverage Results" MODIFIED="1739930955960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/single_task" />
     <SUITE FILE_PATH="coverage/CCEL_25winter_project$yml_to_json.coverage" NAME="yml_to_json Coverage Results" MODIFIED="1740036269316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/CCEL_25winter_project$contcar_to_xyz.coverage" NAME="contcar_to_xyz Coverage Results" MODIFIED="1740028141942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/CCEL_25winter_project$week5_results_to_excel__1_.coverage" NAME="week5_results_to_excel (1) Coverage Results" MODIFIED="1740549254985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week5_scripts" />
   </component>
 </project>
